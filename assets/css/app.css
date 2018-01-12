@@ -1026,13 +1026,13 @@ ul {
           justify-content: space-between; }
 
 .sound {
-  background: url("/assets/img/icons/sound_on.png") no-repeat center;
+  background: url("assets/img/icons/sound_on.png") no-repeat center;
   width: 2.5rem;
   height: 2.5rem;
   cursor: pointer; }
 
 .sound--off {
-  background: url("/assets/img/icons/sound_off.png") no-repeat center; }
+  background: url("assets/img/icons/sound_off.png") no-repeat center; }
 
 .title {
   display: -webkit-box;
@@ -1057,7 +1057,7 @@ ul {
   font-weight: normal; }
 
 .title__arrow {
-  background: url("/assets/img/icons/arrow.png") no-repeat center;
+  background: url("assets/img/icons/arrow.png") no-repeat center;
   position: absolute;
   height: 3.125rem;
   width: 1.875rem;
@@ -1148,14 +1148,14 @@ ul {
   height: 1.25rem; }
 
 .icon-play {
-  background: url("/assets/img/icons/play-yellow.png") no-repeat center; }
+  background: url("assets/img/icons/play-yellow.png") no-repeat center; }
 
 .icon-checked {
-  background: url("/assets/img/icons/checked-color.png") no-repeat center;
+  background: url("assets/img/icons/checked-color.png") no-repeat center;
   margin-right: 0.3125rem; }
 
 .icon-cross {
-  background: url("/assets/img/icons/cross-red.png") no-repeat center;
+  background: url("assets/img/icons/cross-red.png") no-repeat center;
   margin-right: 0.3125rem; }
 
 .guide__item-container {
@@ -1249,20 +1249,20 @@ ul {
 
 .controller__icons-play {
   height: 2.1875rem;
-  background: url("/assets/img/icons/play-big-color.png") no-repeat center;
+  background: url("assets/img/icons/play-big-color.png") no-repeat center;
   margin-bottom: 1.25rem; }
   .controller__icons-play:hover {
-    background: url("/assets/img/icons/play-big-color.png") no-repeat center; }
+    background: url("assets/img/icons/play-big-color.png") no-repeat center; }
   .controller__icons-play:active {
-    background: url("/assets/img/icons/play.png") no-repeat center; }
+    background: url("assets/img/icons/play.png") no-repeat center; }
 
 .controller__icons-checked {
   height: 4.0625rem;
-  background: url("/assets/img/icons/checked-color-big.png") no-repeat center; }
+  background: url("assets/img/icons/checked-color-big.png") no-repeat center; }
 
 .controller__icons-cross {
   height: 4.0625rem;
-  background: url("/assets/img/icons/cross-red-big.png") no-repeat center; }
+  background: url("assets/img/icons/cross-red-big.png") no-repeat center; }
 
 .controller__result {
   display: -webkit-box;
@@ -1415,10 +1415,10 @@ ul {
   height: 4.375rem;
   cursor: pointer;
   border: none;
-  background: url("/assets/img/icons/submit.png") no-repeat center;
+  background: url("assets/img/icons/submit.png") no-repeat center;
   transition: all .3s; }
   .submit__btn:hover {
-    background: url("/assets/img/icons/submit-color.png") no-repeat center; }
+    background: url("assets/img/icons/submit-color.png") no-repeat center; }
   .submit__btn:active {
     -webkit-transform: translateY(0.125rem);
         -ms-transform: translateY(0.125rem);
