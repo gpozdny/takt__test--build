@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/js/foundation.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div class="wrapper">
+      <div class="maincontent" id="fullpage">
+        <header class="header">
+          <div class="sound"></div>
+          <div class="hamburger-wrap">
+            <button class="hamburger hamburger--collapse" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+          </div>
+        </header>
+        <section class="title section">
+          <h1 class="title__text">|  Насколько музыкален твой слух ?  |</h1>
+          <div class="title__arrow bounce"></div>
+        </section>
+        <section class="guide section">
+          <div class="container">
+            <ul class="guide__list">
+              <li class="guide__item"><span class="guide__item-digit guide__item-digit--first">1</span><span class="guide__item-text">запусти аудио-клип:</span>
+                <div class="guide__item-icon icon-play"></div>
+              </li>
+              <li class="guide__item"><span class="guide__item-digit">2</span><span class="guide__item-text">проанализируй две версии каждого клипа</span></li>
+              <li class="guide__item"><span class="guide__item-digit">3</span><span class="guide__item-text">сделай выбор, нажав:</span>
+                <div class="guide__item-container">
+                  <div class="guide__item-wrap">
+                    <div class="guide__item-icon icon-checked"></div><span class="guide__item-text">- одинаковые мелодии</span>
+                  </div>
+                  <div class="guide__item-wrap">
+                    <div class="guide__item-icon icon-cross"></div><span class="guide__item-text">- разные</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="title__arrow bounce"></div>
+          </div>
+        </section>
+        <section class="controller section">
+          <div class="container">
+            <div class="controller__panel">
+              <div class="controller__icons-column">
+                <div class="controller__icons-play controller__icons" onclick="beginTest()"></div>
+                <div class="controller__icons-checked controller__icons"></div>
+                <div class="controller__icons-cross controller__icons"></div>
+              </div>
+            </div>
+            <div class="controller__result"><span class="controller__result-level">|  уровень твоего музыкального слуха:</span>
+              <div class="controller__result-round"><span class="controller__result-rate"> </span></div>
+            </div>
+            <div class="title__arrow bounce"></div>
+          </div>
+        </section>
+        <section class="feedback section">
+          <div class="container container--feedback">
+            <div class="form-title__wrap"><span class="form-title">ЗАПОЛНИ ФОРМУ УЧАСТНИКА  |  ОТПРАВЬ СВОЙ РЕЗУЛЬТАТ</span></div>
+            <form class="form" action="#">
+              <div class="form__fields">
+                <div class="form__wrap-labels">
+                  <label for="name">ИМЯ</label>
+                  <label for="surname">ФАМИЛИЯ</label>
+                  <label for="email">EMAIL</label>
+                </div>
+                <div class="form__wrap-inputs">
+                  <input id="name" type="text" placeholder="_">
+                  <input id="surname" type="text" placeholder="_">
+                  <input id="email" type="email" placeholder="_">
+                </div>
+                <div class="controller__result-round controller__result-round--form"><span class="controller__result-rate controller__result-rate--form"> </span></div>
+              </div>
+              <input class="submit__btn" type="submit" value="">
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="assets/js/plugins.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>
