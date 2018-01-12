@@ -63,7 +63,7 @@ if( !Array.prototype.equals ) {
     1,
     0
 
-	], link = '/assets/tracks/track', answers = [], trackId = 0, track, testStarted = false;
+	], link = 'assets/tracks/track', answers = [], trackId = 0, track, testStarted = false;
   // интервал мигания
   function colourInterval(){
 
