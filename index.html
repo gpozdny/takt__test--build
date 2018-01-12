@@ -13,18 +13,20 @@
   <body>
     <div id="particles-js"></div>
     <div class="wrapper">
+      <header class="header">
+        <div class="sound" onclick="muteTrack()"></div>
+        <div class="hamburger-wrap">
+          <button class="hamburger hamburger--collapse" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+        </div>
+      </header>
       <div class="maincontent" id="fullpage">
-        <header class="header">
-          <div class="sound"></div>
-          <div class="hamburger-wrap">
-            <button class="hamburger hamburger--collapse" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
-          </div>
-        </header>
+        <div class="menu" id="menu"></div>
         <section class="title section">
           <h1 class="title__text">|  Насколько музыкален твой слух ?  |</h1>
-          <div class="title__arrow bounce"></div>
+          <div class="title__arrow bounce" href="#"></div>
         </section>
         <section class="guide section">
+          <div class="title__arrow bounce" href="#"></div>
           <div class="container">
             <ul class="guide__list">
               <li class="guide__item"><span class="guide__item-digit guide__item-digit--first">1</span><span class="guide__item-text">запусти аудио-клип:</span>
@@ -42,7 +44,6 @@
                 </div>
               </li>
             </ul>
-            <div class="title__arrow bounce"></div>
           </div>
         </section>
         <section class="controller section">
@@ -57,8 +58,8 @@
             <div class="controller__result"><span class="controller__result-level">|  уровень твоего музыкального слуха:</span>
               <div class="controller__result-round"><span class="controller__result-rate"> </span></div>
             </div>
-            <div class="title__arrow bounce"></div>
           </div>
+          <div class="title__arrow bounce" href="#"></div>
         </section>
         <section class="feedback section">
           <div class="container container--feedback">
